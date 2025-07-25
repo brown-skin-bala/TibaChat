@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TibaChat - Contact</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="icon" href="assets/icons/health.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">TibaChat</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="contact-container">
+    <h2>Contact Us</h2>
+    <form class="contact-form" id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <div class="form-message" id="formMessage"></div>
+    </form>
+  </main>
+  <footer class="footer">
+    <span>&copy; 2025 TibaChat. All rights reserved.</span>
+  </footer>
+  <script src="js/contact.js"></script>
+</body>
+</html>
