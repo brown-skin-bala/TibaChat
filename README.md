@@ -65,19 +65,19 @@ TibaChat/
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/home.PNG)
 *The landing page of TibaChat. Users are welcomed and can navigate to other sections such as chat, FAQs, about, and contact. It provides an overview of the platform and its purpose.*
 
 ### Chat Page
-![Chat Page](screenshots/chat.png)
+![Chat Page](screenshots/chat.PNG)
 *The main interface for interacting with the AI-powered chatbot. Users can type health-related questions and receive instant responses. The chat page may also display previous conversations and community messages.*
 
 ### FAQs Page
-![FAQs Page](screenshots/faqs.png)
+![FAQs Page](screenshots/faqs.PNG)
 *Displays a categorized list of frequently asked health questions and answers. Users can browse or search for information on common health topics, improving accessibility to reliable information.*
 
 ### About Page
-![About Page](screenshots/about.png)
+![About Page](screenshots/about.PNG)
 *Provides background information about TibaChat, its mission, and the team or organization behind the project. This page helps build trust and transparency with users.*
 
 ### Contact Page
@@ -85,11 +85,11 @@ TibaChat/
 *Allows users to reach out for support, feedback, or partnership inquiries. Includes a contact form or contact details for the TibaChat team.*
 
 ### Render Deployment Logs
-![Render Logs](screenshots/render-logs.png)
+![Render Logs](screenshots/render/render_logs.png)
 *Shows the deployment logs from Render, including build and server startup information. Useful for debugging and verifying successful backend deployment.*
 
 ### Vercel Deployment
-![Vercel Deployment](screenshots/vercel.png)
+![Vercel Deployment](screenshots/vercel/vercel.png)
 *Displays the deployment status and logs from Vercel, confirming that the frontend has been successfully deployed and is accessible online.*
 
 ---
