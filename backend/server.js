@@ -15,6 +15,11 @@ connectDB();
 const app = express();
 app.use(express.json());
 
+// Root route
+app.get('/', (req, res) => {
+  res.send('TibaChat backend is running!');
+});
+
 // API routes
 app.use('/api', chatRoutes);
 app.use('/api', faqRoutes);
